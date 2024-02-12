@@ -1,4 +1,4 @@
-/c/Users/PC/Desktop/65f4a1dd9c51265f49d0.png
+![65f4a1dd9c51265f49d0](https://github.com/yadsashel/AirBnB_clone/assets/124151323/5bbf5078-0220-4766-afad-e20b0ec3557b)
 
 # AirBnB Clone Project
 
