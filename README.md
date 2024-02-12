@@ -47,6 +47,47 @@ $ python3 console.py
 
 ```
 
+in shell it should work like this in interactive mode:
+
+```bash
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+
+```
+But also in non-interactive mode: (like the Shell project in C):
+
+```bash
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+
+```
+
 ### How to Use
 
 Once the command interpreter is running, you can interact with it using various commands. These commands enable you to perform operations such as creating, updating, deleting, and managing objects within the project. Below are some example commands:
