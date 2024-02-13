@@ -7,7 +7,7 @@ Unittest classes:
     TestCity_to_dict
 """
 import os
-import models
+from models import storage
 import unittest
 from datetime import datetime
 from time import sleep
