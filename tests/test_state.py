@@ -12,6 +12,7 @@ import unittest
 from datetime import datetime
 from time import sleep
 from models.state import State
+from models import storage
 
 
 class TestState_instantiation(unittest.TestCase):
