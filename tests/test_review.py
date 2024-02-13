@@ -7,7 +7,7 @@ Unittest classes:
     TestReview_to_dict
 """
 import os
-import models
+from models.engine.file_storage import FileStorage
 import unittest
 from datetime import datetime
 from time import sleep
