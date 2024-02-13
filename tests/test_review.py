@@ -12,6 +12,7 @@ import unittest
 from datetime import datetime
 from time import sleep
 from models.review import Review
+from models import storage
 
 
 class TestReview_instantiation(unittest.TestCase):
