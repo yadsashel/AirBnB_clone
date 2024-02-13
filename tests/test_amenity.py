@@ -7,7 +7,7 @@ Unittest classes:
     TestAmenity_to_dict
 """
 import os
-from models import storage
+from models.engine.file_storage import FileStorage
 import unittest
 from datetime import datetime
 from time import sleep
