@@ -1,0 +1,36 @@
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; 
+}
+
+.locations,
+.amenities {
+    width: 25%;
+    height: 100%;
+    padding: 0 10px; 
+    box-sizing: border-box; 
+    position: relative; 
+}
+
+.locations {
+    border-left: 1px solid #DDDDDD; 
+    padding-left: 10px;
+}
+
+.locations h3,
+.amenities h3 {
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.locations h4,
+.amenities h4 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px; /* Adjust margin as needed */
+}
+
